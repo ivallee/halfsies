@@ -58,7 +58,10 @@ export default function App() {
                 </button>
               </Form>
             ) : (
-              <Link to="/login">Log in</Link>
+              <>
+                <Link to="/login">Log in</Link>
+                <Link to="/join">Register</Link>
+              </>
             )}
           </header>
 
